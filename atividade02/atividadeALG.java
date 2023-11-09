@@ -5,9 +5,9 @@ Entrega a Atividade 2 - Algoritmos e Programação II
 Nós,
 
 Paulo Henrique Moreira Maia
+Pedro Henrique Pinheiro de Oliveira
 Gabriel Santos Attuy 
-Nome completo 
-Nome completo 
+Gustavo de Medeiros Sanchez
 
 declaramos que
 
@@ -55,7 +55,7 @@ public class atividadeALG {
         return palavras;
     }
 
-    // Conta o número de palavras em uma linha pro indice do while funfar
+    // Conta o número de palavras em uma linha pro indice do whil
     public static int contarPalavras(String linha) {
         String[] palavrasDaLinha = linha.split(" ");
         return palavrasDaLinha.length;
@@ -82,7 +82,6 @@ public class atividadeALG {
 
     // Funçao para verificar se a palavra existe, if sim entao corta ela, a busca
     // binaria que antes era uma funçao a parte agora está dentro dessa funçao ali
-    // no While (PEDRO)
     public static boolean existePalavra(String[] palavras, String palavra, int indice) {
         int inicio = 0;
         int fim = indice - 1;
@@ -115,5 +114,6 @@ public class atividadeALG {
                 System.out.println(palavras[i]);
             }
         }
+        System.out.println("O dicionario tem: " + indice + " palavras");
     }
 }
